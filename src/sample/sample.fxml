@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="prototype" onMouseMoved="#mouseMoveDetected" prefHeight="1080" prefWidth="1920" GridPane.rowIndex="3">
+         <children>
+            <ImageView fitHeight="1089.0" fitWidth="1943.0" layoutY="-9.0">
+               <image>
+                  <Image url="@../images/harryCarney.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="currMouseLocation" layoutX="210.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this is some random text" />
+            <Text fx:id="staticMouseLocation" layoutX="49.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="current mouse location is:" />
+            <Text fx:id="distFromMouse" layoutX="407.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this is some random text" />
+            <Text fx:id="closestToMouse" layoutX="407.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this is some random text" />
+            <Rectangle fx:id="box1" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="229.0" layoutX="71.0" layoutY="116.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <Rectangle fx:id="box2" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="346.0" layoutX="75.0" layoutY="355.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <Rectangle fx:id="box3" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="209.0" layoutX="71.0" layoutY="713.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <Rectangle fx:id="box4" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="538.0" layoutX="622.0" layoutY="288.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="715.0" />
+            <Rectangle fx:id="box5" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="217.0" layoutX="564.0" layoutY="782.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="277.0" />
+            <Rectangle fx:id="box6" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="159.0" layoutX="1060.0" layoutY="843.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="204.0" />
+            <Rectangle fx:id="box7" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="294.0" layoutX="1530.0" layoutY="116.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <Rectangle fx:id="box8" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="209.0" layoutX="1530.0" layoutY="424.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <Rectangle fx:id="box9" arcHeight="5.0" arcWidth="5.0" fill="#ffa51f" height="270.0" layoutX="1530.0" layoutY="647.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="401.0" />
+            <MediaView fx:id="vid" fitHeight="500.0" fitWidth="500.0" layoutX="703.0" layoutY="29.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
