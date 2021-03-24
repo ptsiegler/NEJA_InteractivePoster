@@ -9,7 +9,7 @@ Professor Scott Barton sdbarton@wpi.edu
 This source code encompases the design code for creating interactive New England Jazz Hall of Fame Posters.
 The code given generates a single poster with the given image and audio as a .jar file
 Packaging of the various posters must be done outside the integrated development environment
-The Interactive Posters can be found at https://github.com/ptsiegler/NEJA_InteractivePoster_Run
+The Interactive Posters can be found at https://drive.google.com/drive/folders/1fNHvo5jfv1AeWp4k_ydUZyZzBqJX2BML
     
 # 2.0 Required Software
 ## 2.1 Integrated Development Environment (IDE)
@@ -109,7 +109,7 @@ It is currently easier to rebuild the poster than to edit an existing poster, ho
 ## 4.2 Move the executable to the run location
 0) if you are editing an existing poster, only do step 4
 
-1) The run location can be downloaded from https://github.com/ptsiegler/NEJA_InteractivePoster_Run
+1) The run location can be downloaded from https://drive.google.com/drive/folders/1fNHvo5jfv1AeWp4k_ydUZyZzBqJX2BML
 
 2) Unzip the run location "InteractivePosters"
 
