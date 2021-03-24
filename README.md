@@ -42,9 +42,10 @@ Make note of the directory as this will be important later
 1) Drag the poster image to the src/images folder in intellij
 <img src="https://i.imgur.com/nQzh5x7.png">
 2) In the following popup, select "Refactor"
-3) Drag the desired .mp3 audio files to the src/Music folder in intellij
+3) Delete existing music files in src/Music folder in intellij
+4) Drag the desired .mp3 audio files to the src/Music folder in intellij
 <img src="https://i.imgur.com/1aX8HuD.png">
-4) In the following popup, select "Refactor"
+5) In the following popup, select "Refactor"
 
 #### 3.1.2 Setting the new poster image
 Open the "sample.fxml" file in JavaFX Scenebuilder by right clicking the file
